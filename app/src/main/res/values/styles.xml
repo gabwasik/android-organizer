@@ -1,0 +1,18 @@
+<resources>
+    <style name="AppTheme" parent="Theme.Organizer">
+        <item name="colorPrimary">@color/material_dynamic_primary50</item>
+        <item name="colorPrimaryDark">@color/design_default_color_secondary</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    </style>
+
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_dots_vertical</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">test</item>
+    </style>
+
+    <style name="CustomMaterialDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog"/>
+</resources>

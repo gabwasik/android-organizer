@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- toolbar (+ menu) -->
+    <string name="app_name">Organizer</string>
+    <string name="menu_task_add">Dodaj zadanie</string>
+    <string name="menu_task_remove">Usuń zadanie</string>
+    <string name="menu_task_remove_help">Aby usunąć zadanie, kliknij na kwadrat po jego prawej stronie</string>
+
+    <!-- dialog -->
+    <string name="dialog_task_name">Nazwa zadania</string>
+    <string name="dialog_task_name_error">Wprowadź nazwę zadania</string>
+    <string name="dialog_task_url">Link do filmiku na YouTube</string>
+    <string name="dialog_task_url_error">Wprowadź poprawny link do filmiku</string>
+
+    <!-- przyciski -->
+    <string name="button_add">Dodaj</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="button_undo">Cofnij</string>
+
+    <!-- toast -->
+    <string name="toast_task_created" tools:ignore="Typos">Dodano nowe zadanie</string>
+    <string name="toast_task_undone">Cofnięto dodanie zadania</string>
+    <string name="toast_task_deleted">"Usunięto zadanie "</string>
+</resources>
